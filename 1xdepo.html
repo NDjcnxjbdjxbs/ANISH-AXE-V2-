@@ -86,7 +86,7 @@
 <body>
     <div class="container">
         <h2>1X DEPO LIST </h2>
-        <h3>10RS EXTRA CHARGE IN EACH DEPO!</h3>
+        <h3>15RS EXTRA CHARGE IN EACH DEPO!</h3>
         <form id="productForm">
             <div class="product-list">
                 <!-- Generating product items -->
@@ -113,7 +113,7 @@
             
             if (selectedProducts.length > 0) {
                 localStorage.setItem('selectedProducts', JSON.stringify(selectedProducts));
-                window.location.href = 'payment.html';
+                window.location.href = 'ffpayment.html';
             } else {
                 alert('Please select at least one product.');
             }
@@ -121,3 +121,4 @@
     </script>
 </body>
 </html>
+
